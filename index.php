@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title></title>
+    <meta charset="utf-8">
+    <title>Web Interactvitiy and Engagement</title>
 </head>
 <body>
-    <h1>Blank WordPress Template</h1>
-    <p>This is my WordPress template.</p>
+    <h1>Web Interactivity and Engagement</h1>
+    <h2>Spring 2016</h2>
+
+    <p>This is where the blogs will go.</p>
 </body>
 </html>
