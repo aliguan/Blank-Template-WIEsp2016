@@ -1,19 +1,22 @@
 <?php get_header(); ?>
 
         <section class="row">
-            <div class="three columns">
-                <h4>Side Bar</h4>
-            </div>
+
             <div class="nine columns">
                 <?php
                 if ( have_posts() ) {
                     while ( have_posts() ) {
                         the_post(); ?>
-                    <h3><?php the_title();?></h3>
-                    <?php the_content();
-                    }// end of while
+                    <h3><a href="<?php the_permalink();?>"><?php the_title();?></a></h3>
+                    <?php the_excerpt();?>
+                    <a href="<?php the_permalink();?>">Read More..</a>
+                <?php  }// end of while
                 }//end if
                 ?>
+            </div>
+            <div class="three columns">
+                <h4>Side Bar</h4>
+                <p>Side Bar<p>
             </div>
         </section>
 
