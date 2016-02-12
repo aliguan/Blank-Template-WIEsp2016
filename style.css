@@ -46,7 +46,12 @@ h6 {
     font-size: 1.0rem;
 }
 p {
-    padding: 0.8%;
+    font-weight: lighter;
+    text-indent: 30px;
+}
+.single-post-thumbnail img {
+    width: 100%;
+    height: auto;
 }
 
 /*--- Menu --- */
