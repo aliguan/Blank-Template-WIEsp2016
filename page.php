@@ -17,7 +17,7 @@
             endif; ?>
 <!-- END PAGE PHP -->
         </div>
-        
+
     </div>
 
 <?php get_footer(); ?>
